@@ -6,7 +6,7 @@ public class ExemploWhile {
         //o seu dinheiro, logo, ENQUANTO o valor dos doces não igualar a R$ 50,00
         //ele foi adicionando itens no carrinho.
 
-        double mesada = 50.0;
+        Double mesada = 50.0;
 
         while (mesada > 0) {
             Double valorDoce = valorAleatorio();
