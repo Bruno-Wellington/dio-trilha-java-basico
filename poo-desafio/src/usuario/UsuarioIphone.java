@@ -1,3 +1,4 @@
+package usuario;
 import java.util.Scanner;
 
 import aparelho.iphone.Iphone;
