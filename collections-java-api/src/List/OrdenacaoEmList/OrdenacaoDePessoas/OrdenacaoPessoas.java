@@ -1,4 +1,4 @@
-package List.OrdenacaoEmList;
+package List.OrdenacaoEmList.OrdenacaoDePessoas;
 
 import java.util.ArrayList;
 import java.util.Collections;

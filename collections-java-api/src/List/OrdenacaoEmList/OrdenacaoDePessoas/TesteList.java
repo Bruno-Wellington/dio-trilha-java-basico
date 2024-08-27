@@ -1,4 +1,4 @@
-package List.OrdenacaoEmList;
+package List.OrdenacaoEmList.OrdenacaoDePessoas;
 
 public class TesteList {
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class TesteList {
         System.out.println("Ordenando por Idade:");
         System.out.println(ordenacaoPessoas.ordenarPorIdade());
         System.out.println();
-        
+
         // Ordenando e exibindo por altura
         System.out.println("Ordenando por Altura:");
         System.out.println(ordenacaoPessoas.ordenarPorAltura());
