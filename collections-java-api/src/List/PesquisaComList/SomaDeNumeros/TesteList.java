@@ -1,4 +1,4 @@
-package List.PesquisaEmList.SomaDeNumeros;
+package List.PesquisaComList.SomaDeNumeros;
 
 public class TesteList {
     public static void main(String[] args) {

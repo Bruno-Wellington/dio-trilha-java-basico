@@ -1,4 +1,4 @@
-package Set.ConjuntoDePalavrasUnicas;
+package Set.OperacoesBasicas.ConjuntoDePalavrasUnicas;
 
 public class TesteColecaoSet {
     public static void main(String[] args) {

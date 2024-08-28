@@ -1,4 +1,4 @@
-package Set.ConjuntoDeConvidados;
+package Set.OperacoesBasicas.ConjuntoDeConvidados;
 
 public class TesteColecaoSet {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Set.ConjuntoDeConvidados;
+package Set.OperacoesBasicas.ConjuntoDeConvidados;
 
 import java.util.Objects;
 

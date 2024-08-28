@@ -1,4 +1,4 @@
-package List.PesquisaEmList.CatalogoLivros;
+package List.PesquisaComList.CatalogoLivros;
 
 public class TesteList {
     public static void main(String[] args) {

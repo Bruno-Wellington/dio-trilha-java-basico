@@ -1,6 +1,5 @@
-package Set.ConjuntoDeConvidados;
+package Set.OperacoesBasicas.ConjuntoDeConvidados;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 

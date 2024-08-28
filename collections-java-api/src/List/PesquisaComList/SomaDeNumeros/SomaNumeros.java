@@ -1,4 +1,4 @@
-package List.PesquisaEmList.SomaDeNumeros;
+package List.PesquisaComList.SomaDeNumeros;
 
 import java.util.ArrayList;
 import java.util.List;
