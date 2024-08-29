@@ -17,13 +17,16 @@ public class GerenciadorAlunos {
 
     public void removerAluno(long matricula){
         if (!alunosSet.isEmpty()){
-            if(alunosSet.contains(matricula)){
-                alunosSet.remove(matricula);
-            } else {
-                System.out.println("Matricula nao encontrada");
+            Aluno alunoParaRemover = null;
+            for(Aluno a : alunosSet){
+                if(a.getMatrícula() == matricula){
+                    alunoParaRemover = a;
+                    break;
+                }
             }
+            alunosSet.remove(alunoParaRemover);
         } else {
-            System.out.println("A coleção Set está vazia!");
+            throw new RuntimeException("A coleção Set está vazia!");
         }
     }
 

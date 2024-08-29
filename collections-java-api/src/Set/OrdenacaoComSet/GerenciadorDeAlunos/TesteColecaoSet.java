@@ -9,11 +9,19 @@ public class TesteColecaoSet {
 
         // Adicionando Alunos ao cadastro
         gerenciadorAlunos.adicionarAluno("Bruno", 1000L, 7.0);
-        gerenciadorAlunos.adicionarAluno("Patricia", 1002L, 8.0);
+        gerenciadorAlunos.adicionarAluno("Patricia", 1001L, 8.0);
         gerenciadorAlunos.adicionarAluno("Suan", 1000L, 10.0);
         gerenciadorAlunos.adicionarAluno("Renato", 1003L, 5.5);
         gerenciadorAlunos.adicionarAluno("Lucas", 1004L, 9.0);
 
+        // Exibindo todos os alunos no cadastro
+        System.out.println("Exibindo todos os Alunos");
+        gerenciadorAlunos.exibirAlunos();
+        System.out.println();
+
+        // Removendo um aluno pela sua matricula
+        System.out.println("Removendo o aluno de matricula 1003");
+        gerenciadorAlunos.removerAluno(1003L);
         // Exibindo todos os alunos no cadastro
         System.out.println("Exibindo todos os Alunos");
         gerenciadorAlunos.exibirAlunos();
