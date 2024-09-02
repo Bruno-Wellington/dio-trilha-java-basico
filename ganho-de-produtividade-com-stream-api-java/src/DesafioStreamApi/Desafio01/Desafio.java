@@ -4,16 +4,16 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /*Crie um programa que utilize a Stream API para ordenar a lista de números em ordem crescente e a exiba no console.*/
-public class Desafio01 {
+public class Desafio {
     private List<Integer> numeros;
 
-    public Desafio01() {
+    public Desafio() {
         this.numeros = new ArrayList<>();
     }
 
     //Ordenação com Numeros repetidos devido ao uso do List
     public void OrdenarNumeros(){
-        List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
+        numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
 
         System.out.println("Ordenação usando List:");
         List<Integer> ordemNumerica = numeros.stream()
@@ -24,7 +24,7 @@ public class Desafio01 {
 
     //Ordenação sem numeros repetidos usando o Set
     public void OrdenarNumerosUnicos(){
-        List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
+        numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
 
         System.out.println("Ordenação usando Set:");
         Set<Integer> ordemNumericaSet = numeros.stream()
