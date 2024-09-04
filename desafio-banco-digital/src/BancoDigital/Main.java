@@ -19,6 +19,12 @@ public class Main {
         conta.setBanco(banco);
         conta1.setBanco(banco);
 
+        conta.depositar(200);
+        conta1.depositar(1000);
+
+        conta1.transferir(300, conta);
+        conta1.sacar(50);
+
         System.out.println(cliente);
         System.out.println(cliente1);
         System.out.println("---------------------------------------------");
