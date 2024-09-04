@@ -1,22 +1,29 @@
 package BancoDigital;
 
-public class Cliente {
-    private String nome;
+public abstract class Cliente {
+    protected String nome;
+    protected String email;
+    protected Conta conta;
 
-    public Cliente(String nome) {
+    public Cliente(String nome, String email) {
         this.nome = nome;
+        this.email = email;
     }
 
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getEmail() {
+        return email;
     }
 
-    @Override
-    public String toString() {
-        return "nome= " + nome;
+    public Conta getConta() {
+        return conta;
     }
+
+    public void setConta(Conta conta) {
+        this.conta = conta;
+    }
+
 }

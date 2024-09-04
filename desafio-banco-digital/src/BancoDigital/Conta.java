@@ -2,7 +2,6 @@ package BancoDigital;
 
 public abstract class Conta {
 
-
     private static final int AGENCIA_PADRAO = 1;
     private static  int CONTADOR = 1;
 
@@ -10,6 +9,7 @@ public abstract class Conta {
     protected int numero;
     protected double saldo;
     protected Cliente cliente;
+    protected Banco banco;
 
     public Conta(Cliente cliente) {
         this.agencia = Conta.AGENCIA_PADRAO;
@@ -29,6 +29,14 @@ public abstract class Conta {
         return saldo;
     }
 
+    public Banco getBanco() {
+        return banco;
+    }
+
+    public void setBanco(Banco banco) {
+        this.banco = banco;
+    }
+
     public void sacar(double valor){
         if(this.saldo > 0){
             this.saldo -= valor;
@@ -45,6 +53,5 @@ public abstract class Conta {
          this.sacar(valor);
          contaDestino.depositar(valor);
     }
-
 
 }
