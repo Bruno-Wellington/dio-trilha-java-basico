@@ -12,7 +12,18 @@ public class ContaCorrente extends Conta{
                 "agencia=" + agencia +
                 ", numero=" + numero +
                 ", saldo=" + saldo +
-                ", banco=" + banco.getNome()+
+                ", creditoEspecial=" + creditoEspecial +
+                ", banco=" + banco.getNome() +
                 '}';
     }
+
+//    @Override
+//    public String toString() {
+//        return "ContaCorrente{" +
+//                "agencia=" + agencia +
+//                ", numero=" + numero +
+//                ", saldo=" + saldo +
+//                ", banco=" + banco.getNome()+
+//                '}';
+//    }
 }
