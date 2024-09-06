@@ -25,11 +25,4 @@ public abstract class Conteudo {
         this.descricao = descricao;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Conteudo{" +
-//                "titulo='" + titulo + '\'' +
-//                ", descricao='" + descricao + '\'' +
-//                '}';
-//    }
 }
