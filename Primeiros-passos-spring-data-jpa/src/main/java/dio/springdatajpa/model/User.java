@@ -3,6 +3,7 @@ package dio.springdatajpa.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "tab_user")
 public class User {
 
     @Id
